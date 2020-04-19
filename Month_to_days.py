@@ -4,25 +4,27 @@ month = input("Input the month: ")
 
 if month == "january":
     print("This month has 31 days")
-if month == "february":
+elif month == "february":
     print("This month has 28/29 days")
-if month == "march":
+elif month == "march":
     print("This month has 31 days")
-if month == "april":
+elif month == "april":
     print("This month has 30 days")
-if month == "may":
+elif month == "may":
     print("This month has 31 days")
-if month == "june":
+elif month == "june":
     print("This month has 30 days")
-if month == "july":
+elif month == "july":
     print("This month has 31 days")
-if month == "august":
+elif month == "august":
     print("This month has 31 days")
-if month == "september":
+elif month == "september":
     print("This month has 30 days")
-if month == "october":
+elif month == "october":
     print("This month has 31 days")
-if month == "november":
+elif month == "november":
     print("This month has 30 days")
-if month == "december":
+elif month == "december":
     print("This month has 31 days")
+else:
+    print("Enter a valid month")
