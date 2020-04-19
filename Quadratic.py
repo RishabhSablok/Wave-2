@@ -1,7 +1,7 @@
 import math
-a = int(input("Input a: "))
-b = int(input("Input b: "))
-c = int(input("Input c: "))
+a = float(input("Input a: "))
+b = float(input("Input b: "))
+c = float(input("Input c: "))
 no_of_roots = 0
 discriminant = b ** 2 - (4 * a * c)
 if discriminant > 0:
