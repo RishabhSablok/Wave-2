@@ -7,7 +7,7 @@ for i in range(38):
         start.append("0")
     elif i == 38:
         start.append("00")
-my_random = random.randint(1, 39)
+my_random = random.randint(1, 38)
 if my_random == 37:
     my_random = "0"
     print("The spin resulted in", my_random)
